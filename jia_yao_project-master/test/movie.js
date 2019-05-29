@@ -104,7 +104,7 @@ function searchbox() {
 
 
         window.makeList = function(){
-            d3.selectAll("li").remove();
+	    d3.select("#movie_list").selectAll("li").remove();
 
             title = d3.select("#myInput").property("value");
             console.log(title);
