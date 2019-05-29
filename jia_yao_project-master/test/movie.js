@@ -70,30 +70,37 @@ var str;
 function show1(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[0];
+console.log(title);
 }
 function show2(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[1];
+console.log(title);
 }
 function show3(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[2];
+console.log(title);
 }
 function show4(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[3];
+console.log(title);
 }
 function show5(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[4];
+console.log(title);
 }
 function show6(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[5];
+console.log(title);
 }
 function show7(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[6];
+console.log(title);
 }
 function searchbox() {
     var input, filter, ul, li, a, i;
