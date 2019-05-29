@@ -69,41 +69,6 @@ var str;
 window.ul;
 window.title;
 
-function show1(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
-title=ul[0];
-makeList();
-}
-function show2(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
-title=ul[1];
-makeList();
-}
-function show3(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
-title=ul[2];
-makeList();
-}
-function show4(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
-title=ul[3];
-makeList();
-}
-function show5(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
-title=ul[4];
-makeList();
-}
-function show6(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
-title=ul[5];
-makeList();
-}
-function show7(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
-title=ul[6];
-makeList();
-}
 function searchbox() {
     var input, filter, ul, li, a, i;
     searchtitle=[];
@@ -166,3 +131,39 @@ function searchbox() {
               .text((d) => d.title);
         }
     });
+
+function show1(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[0].innerHTML;
+makeList();
+}
+function show2(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[1]].innerHTML;
+makeList();
+}
+function show3(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[2]].innerHTML;
+makeList();
+}
+function show4(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[3]].innerHTML;
+makeList();
+}
+function show5(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[4]].innerHTML;
+makeList();
+}
+function show6(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[5]].innerHTML;
+makeList();
+}
+function show7(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[6]].innerHTML;
+makeList();
+}
