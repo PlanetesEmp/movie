@@ -72,37 +72,37 @@ window.title;
 function show1(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[0];
-console.log(title);
+makeList(title);
 }
 function show2(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[1];
-console.log(title);
+makeList(title);
 }
 function show3(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[2];
-console.log(title);
+makeList(title);
 }
 function show4(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[3];
-console.log(title);
+makeList(title);
 }
 function show5(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[4];
-console.log(title);
+makeList(title);
 }
 function show6(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[5];
-console.log(title);
+makeList(title);
 }
 function show7(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[6];
-console.log(title);
+makeList(title);
 }
 function searchbox() {
     var input, filter, ul, li, a, i;
@@ -138,9 +138,9 @@ function searchbox() {
 
 
 
-        window.makeList = function(){
+        window.makeList = function(title){
 	    d3.select("#movie_list").selectAll("li").remove();
-            title = d3.select("#myInput").property("value");
+          //  title = d3.select("#myInput").property("value");
             console.log(title);
 
             var cluster = [];
