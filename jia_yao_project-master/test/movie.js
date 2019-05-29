@@ -66,6 +66,8 @@ searchtitle(node,data){
 var movietitle=[];
 var searchtitle=[];
 var str;
+window.ul;
+window.title;
 
 function show1(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
