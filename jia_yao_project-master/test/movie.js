@@ -72,24 +72,31 @@ window.title;
 
 function show1(){
 title=ul[0].innerHTML;
+console.log(title);
 }
 function show2(){
 title=ul[1].innerHTML;
+console.log(title);
 }
 function show3(){
 title=ul[2].innerHTML;
+console.log(title);
 }
 function show4(){
 title=ul[3].innerHTML;
+console.log(title);
 }
 function show5(){
 title=ul[4].innerHTML;
+console.log(title);
 }
 function show6(){
 title=ul[5].innerHTML;
+console.log(title);
 }
 function show7(){
 title=ul[6].innerHTML;
+console.log(title);
 }
 
 function searchbox() {
