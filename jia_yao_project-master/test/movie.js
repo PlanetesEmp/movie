@@ -71,32 +71,32 @@ window.title;
 
 
 function show1(){
-title=ul[0].innerHTML;
-console.log(title);
+//title=ul[0].innerHTML;
+console.log(ul[0].innerHTML);
 }
 function show2(){
-title=ul[1].innerHTML;
-console.log(title);
+//title=ul[1].innerHTML;
+console.log(ul[1].innerHTML);
 }
 function show3(){
-title=ul[2].innerHTML;
-console.log(title);
+//title=ul[2].innerHTML;
+console.log(title=ul[2].innerHTML;);
 }
 function show4(){
-title=ul[3].innerHTML;
-console.log(title);
+//title=ul[3].innerHTML;
+console.log(ul[3].innerHTML);
 }
 function show5(){
-title=ul[4].innerHTML;
-console.log(title);
+//title=ul[4].innerHTML;
+console.log(ul[4].innerHTML);
 }
 function show6(){
-title=ul[5].innerHTML;
-console.log(title);
+//title=ul[5].innerHTML;
+console.log(ul[5].innerHTML);
 }
 function show7(){
-title=ul[6].innerHTML;
-console.log(title);
+//title=ul[6].innerHTML;
+console.log(ul[6].innerHTML);
 }
 
 function searchbox() {
