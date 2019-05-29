@@ -66,7 +66,7 @@ searchtitle(node,data){
 var movietitle=[];
 var searchtitle=[];
 var str;
-window.ul;
+window.ul = document.getElementById("searchlist").getElementsByTagName("li");
 window.title;
 
 function searchbox() {
@@ -133,37 +133,23 @@ function searchbox() {
     });
 
 function show1(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[0].innerHTML;
-makeList();
 }
 function show2(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[1]].innerHTML;
-makeList();
 }
 function show3(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[2]].innerHTML;
-makeList();
 }
 function show4(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[3]].innerHTML;
-makeList();
 }
 function show5(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[4]].innerHTML;
-makeList();
 }
 function show6(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[5]].innerHTML;
-makeList();
 }
 function show7(){
-ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[6]].innerHTML;
-makeList();
 }
