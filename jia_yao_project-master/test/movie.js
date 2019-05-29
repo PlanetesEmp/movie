@@ -69,6 +69,29 @@ var str;
 window.ul = document.getElementById("searchlist").getElementsByTagName("li");
 window.title;
 
+
+function show1(){
+title=ul[0].innerHTML;
+}
+function show2(){
+title=ul[1].innerHTML;
+}
+function show3(){
+title=ul[2].innerHTML;
+}
+function show4(){
+title=ul[3].innerHTML;
+}
+function show5(){
+title=ul[4].innerHTML;
+}
+function show6(){
+title=ul[5].innerHTML;
+}
+function show7(){
+title=ul[6].innerHTML;
+}
+
 function searchbox() {
     var input, filter, ul, li, a, i;
     searchtitle=[];
@@ -131,25 +154,3 @@ function searchbox() {
               .text((d) => d.title);
         }
     });
-
-function show1(){
-title=ul[0].innerHTML;
-}
-function show2(){
-title=ul[1].innerHTML;
-}
-function show3(){
-title=ul[2].innerHTML;
-}
-function show4(){
-title=ul[3].innerHTML;
-}
-function show5(){
-title=ul[4].innerHTML;
-}
-function show6(){
-title=ul[5].innerHTML;
-}
-function show7(){
-title=ul[6].innerHTML;
-}
