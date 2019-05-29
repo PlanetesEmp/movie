@@ -136,20 +136,20 @@ function show1(){
 title=ul[0].innerHTML;
 }
 function show2(){
-title=ul[1]].innerHTML;
+title=ul[1].innerHTML;
 }
 function show3(){
-title=ul[2]].innerHTML;
+title=ul[2].innerHTML;
 }
 function show4(){
-title=ul[3]].innerHTML;
+title=ul[3].innerHTML;
 }
 function show5(){
-title=ul[4]].innerHTML;
+title=ul[4].innerHTML;
 }
 function show6(){
-title=ul[5]].innerHTML;
+title=ul[5].innerHTML;
 }
 function show7(){
-title=ul[6]].innerHTML;
+title=ul[6].innerHTML;
 }
