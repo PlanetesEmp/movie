@@ -72,37 +72,37 @@ window.title;
 function show1(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[0];
-makeList(title);
+makeList();
 }
 function show2(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[1];
-makeList(title);
+makeList();
 }
 function show3(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[2];
-makeList(title);
+makeList();
 }
 function show4(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[3];
-makeList(title);
+makeList();
 }
 function show5(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[4];
-makeList(title);
+makeList();
 }
 function show6(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[5];
-makeList(title);
+makeList();
 }
 function show7(){
 ul = document.getElementById("searchlist").getElementsByTagName("li");
 title=ul[6];
-makeList(title);
+makeList();
 }
 function searchbox() {
     var input, filter, ul, li, a, i;
@@ -138,7 +138,7 @@ function searchbox() {
 
 
 
-        window.makeList = function(title){
+        window.makeList = function(){
 	    d3.select("#movie_list").selectAll("li").remove();
           //  title = d3.select("#myInput").property("value");
             console.log(title);
