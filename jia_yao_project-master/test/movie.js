@@ -68,7 +68,32 @@ var searchtitle=[];
 var str;
 
 function show1(){
-str=this.value;
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[0];
+}
+function show2(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[1];
+}
+function show3(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[2];
+}
+function show4(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[3];
+}
+function show5(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[4];
+}
+function show6(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[5];
+}
+function show7(){
+ul = document.getElementById("searchlist").getElementsByTagName("li");
+title=ul[6];
 }
 function searchbox() {
     var input, filter, ul, li, a, i;
@@ -103,9 +128,9 @@ function searchbox() {
         console.log(forli);*/
 
 
+
         window.makeList = function(){
 	    d3.select("#movie_list").selectAll("li").remove();
-
             title = d3.select("#myInput").property("value");
             console.log(title);
 
