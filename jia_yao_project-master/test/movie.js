@@ -80,7 +80,7 @@ console.log(ul[1].innerHTML);
 }
 function show3(){
 //title=ul[2].innerHTML;
-console.log(title=ul[2].innerHTML;);
+console.log(ul[2].innerHTML;);
 }
 function show4(){
 //title=ul[3].innerHTML;
