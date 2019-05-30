@@ -72,23 +72,28 @@ window.title;
 
 function show1(){
 //title=ul[0].innerHTML;
-console.log(ul[0].innerHTML);
+//console.log(ul[0].innerHTML);
+d3.select("#myInput").property("value")=searchtitle[0];
 }
 function show2(){
-//title=ul[1].innerHTML;
-console.log(ul[1].innerHTML);
+//title=ul[0].innerHTML;
+//console.log(ul[0].innerHTML);
+title=searchtitle[0];
 }
 function show3(){
-//title=ul[2].innerHTML;
-console.log(ul[2].innerHTML);
+//title=ul[0].innerHTML;
+//console.log(ul[0].innerHTML);
+title=searchtitle[0];
 }
 function show4(){
-//title=ul[3].innerHTML;
-console.log(ul[3].innerHTML);
+//title=ul[0].innerHTML;
+//console.log(ul[0].innerHTML);
+title=searchtitle[0];
 }
 function show5(){
-//title=ul[4].innerHTML;
-console.log(ul[4].innerHTML);
+//title=ul[0].innerHTML;
+//console.log(ul[0].innerHTML);
+title=searchtitle[0];
 }
 function show6(){
 //title=ul[5].innerHTML;
