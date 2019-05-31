@@ -69,40 +69,14 @@ var str;
 window.ul = document.getElementById("searchlist").getElementsByTagName("li");
 window.title;
 
-
-function show1(){
-//title=ul[0].innerHTML;
-//console.log(ul[0].innerHTML);
-d3.select("#myInput").property("value")=searchtitle[0];
-}
-function show2(){
-//title=ul[0].innerHTML;
-//console.log(ul[0].innerHTML);
-title=searchtitle[0];
-}
-function show3(){
-//title=ul[0].innerHTML;
-//console.log(ul[0].innerHTML);
-title=searchtitle[0];
-}
-function show4(){
-//title=ul[0].innerHTML;
-//console.log(ul[0].innerHTML);
-title=searchtitle[0];
-}
-function show5(){
-//title=ul[0].innerHTML;
-//console.log(ul[0].innerHTML);
-title=searchtitle[0];
-}
-function show6(){
-//title=ul[5].innerHTML;
-console.log(ul[5].innerHTML);
-}
-function show7(){
-//title=ul[6].innerHTML;
-console.log(ul[6].innerHTML);
-}
+/*function show(){
+    var d = document.getElementsByTagName('li');
+    for(var i=0; i<d.length; i++){
+        d[i].index = i;
+        d[i].addEventListener('click',function() {
+            document.getElementById("myInput").value = this.textContent;
+        });
+}}*/
 
 function searchbox() {
     var input, filter, ul, li, a, i;
@@ -117,9 +91,16 @@ function searchbox() {
         if(searchtitle[i]==null){
             ul[i].innerHTML=" ";
         }else{
-            ul[i].innerHTML ="<a href=\"#\" onclick=\"show1()\">"+searchtitle[i]+"</a>";}
+            ul[i].innerHTML ="<a href=\"#\" >"+searchtitle[i]+"</a>";}
     }
-}
+
+    var d = document.getElementsByTagName('li');
+    for(var i=0; i<d.length; i++){
+        d[i].index = i;
+        d[i].addEventListener('click',function() {
+            document.getElementById("myInput").value = this.textContent;
+        });
+}}
     d3.csv("data.csv").then(function (data) {
         /*var movietree= new mttree();
         data.forEach(function (d) {
