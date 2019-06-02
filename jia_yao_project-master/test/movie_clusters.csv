@@ -1,4 +1,4 @@
-movie_title,imdb_score,cluster
+title,imdb_score,cluster
 Modern Times,8.6,39.0
 Monty Python and the Holy Grail,8.3,39.0
 Growing Up Smith,8.2,39.0
