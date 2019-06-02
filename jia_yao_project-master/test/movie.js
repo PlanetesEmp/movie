@@ -101,7 +101,7 @@ function searchbox() {
             document.getElementById("myInput").value = this.textContent;
         });
 }}
-    d3.csv("data.csv").then(function (data) {
+    d3.csv("movie_clusters.csv").then(function (data) {
         /*var movietree= new mttree();
         data.forEach(function (d) {
             movietree.insert(d.title);
